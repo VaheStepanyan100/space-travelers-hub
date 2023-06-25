@@ -60,7 +60,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link not avaliable yet](https://google.com)
+- [Live Demo Link](https://vahestepanyan100.github.io/space-travelers-hub/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
