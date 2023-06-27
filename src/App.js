@@ -1,20 +1,24 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Provider } from 'react-redux';
 import Layout from './components/Layout';
-import Rockets from './components/Rockets';
-import Missions from './components/Missions';
-import MyProfile from './components/MyProfile';
+import Rockets from './routes/Rockets';
+import Missions from './routes/Missions';
+import MyProfile from './routes/MyProfile';
+import store from './redux/store';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Rockets />} />
-          <Route path="missions" element={<Missions />} />
-          <Route path="my-profile" element={<MyProfile />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Rockets />} />
+            <Route path="missions" element={<Missions />} />
+            <Route path="my-profile" element={<MyProfile />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </Provider>
   );
 }
 export default App;
