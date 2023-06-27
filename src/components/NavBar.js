@@ -7,15 +7,15 @@ const NavBar = () => {
   const links = [
     {
       path: '/',
-      name: 'rockets',
+      name: 'Rockets',
     },
     {
       path: 'missions',
-      name: 'missions',
+      name: 'Missions',
     },
     {
       path: 'my-profile',
-      name: 'my profile',
+      name: 'My Profile',
     },
   ];
 
