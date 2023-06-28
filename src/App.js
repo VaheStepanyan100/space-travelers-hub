@@ -9,7 +9,7 @@ import store from './redux/store';
 function App() {
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="space-travelers-hub">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Rockets />} />
