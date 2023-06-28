@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import Table from 'react-bootstrap/Table';
+import { Table } from 'react-bootstrap';
 import MissionItem from './MissionItem';
 
 const MissionList = (props) => {

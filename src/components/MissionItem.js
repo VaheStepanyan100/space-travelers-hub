@@ -1,5 +1,4 @@
-import Badge from 'react-bootstrap/Badge';
-import Button from 'react-bootstrap/Button';
+import { Badge, Button } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { joinMission, leaveMission } from '../redux/missions/missionsSlice';
