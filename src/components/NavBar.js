@@ -34,7 +34,7 @@ const NavBar = () => {
           <React.Fragment key={link.path}>
             <li key={link.path}>
               <NavLink to={link.path}>{link.name}</NavLink>
-              {link.name === 'missions' && <span style={{ marginLeft: '.5em' }}>|</span>}
+              {link.name === 'Missions' && <span style={{ marginLeft: '.5em' }}>|</span>}
             </li>
           </React.Fragment>
         ))}
