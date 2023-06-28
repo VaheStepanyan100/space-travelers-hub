@@ -49,6 +49,8 @@ const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   margin: 0 4em;
+  border-bottom: 1px solid black;
+  margin-bottom: 1em;
 
   .container-logo {
     display: flex;
